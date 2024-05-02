@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Fix Nginx Issue With Port 8080
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
