@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install and configure HAproxy on lb-01 server.
+# Install and configure HAproxy on lb-01 server
 sudo apt-get -y update
 sudo apt-get -y install haproxy
 sudo sh -c 'echo "frontend lb-01
