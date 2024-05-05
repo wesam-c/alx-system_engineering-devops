@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is used to add custom http response header to the http response
+# script used to add custom http response header to the http response
 # The header name is "X-Server-Name" and the value is "my-server"
 
 sudo apt-get -y update
