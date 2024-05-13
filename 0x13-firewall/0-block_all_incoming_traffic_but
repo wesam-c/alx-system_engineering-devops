@@ -1,0 +1,8 @@
+sudo apt-get update -y
+sudo apt-get install -y ufw
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh # port 22
+sudo ufw allow http # port 443
+sudo ufw allow https # port 80
+sudo ufw enable # enable ufw to apply all the rules
