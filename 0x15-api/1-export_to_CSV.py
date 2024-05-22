@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Gather data from an API"""
+'''
+Gather data from an API
+'''
+
 import requests
 import sys
 
@@ -43,4 +46,3 @@ if __name__ == "__main__":
     user = get_user_name(user_id)
     export_csv(user_todos, user_id, user.get("username"))
 
-    
