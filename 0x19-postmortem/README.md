@@ -34,8 +34,13 @@ Review and test configuration changes more thoroughly before deployment.
 ## Tasks:
 
 Task 1: Patch and update the database cluster software to the latest version to improve stability and fault detection.
+
 Task 2: Implement additional monitoring for network partitioning and node health within the database cluster.
+
 Task 3: Review and update configuration change procedures to include more comprehensive testing and rollback plans.
+
 Task 4: Conduct a training session for the engineering team on the new monitoring tools and procedures.
+
 Task 5: Perform a postmortem review meeting to discuss lessons learned and gather feedback for further improvements.
+
 By addressing these areas, we aim to prevent similar outages in the future and ensure a more resilient and reliable service for our users. Thank you for your patience and understanding during this incident.
